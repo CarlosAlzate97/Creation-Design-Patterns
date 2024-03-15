@@ -17,5 +17,14 @@ namespace Training_C_.Builder
             builder.AddOrderId(1);
             return builder.GetOrder();
         }
+        public object OrderWithtMedician(IOrder builder)
+        {
+            builder.AddPatient("Nombre paciente genérico");
+            builder.AddDoctor("Orden con médico");
+            builder.AddHealthPlan("Colpatira");
+            builder.AddExams(new List<string> { "Testosterona en suero, Citoquímico de orina" });
+            builder.AddOrderId(1);
+            return builder.GetOrder();
+        }
     }
 }
