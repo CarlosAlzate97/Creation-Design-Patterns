@@ -1,6 +1,6 @@
 ﻿namespace Training_C_.Factory
 {
-    public class ColpatriaReport : IFactory
+    public class ColpatriaReport : IReport
     {
         public void InsertHealthInsuranceName()
         {

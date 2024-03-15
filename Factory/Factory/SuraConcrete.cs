@@ -9,7 +9,7 @@ namespace Factory.Factory
 {
     public class SuraConcrete : ReportManager
     {
-        public override IFactory MakeReport()
+        public override IReport MakeReport()
         {
             return new SuraReport();
         }

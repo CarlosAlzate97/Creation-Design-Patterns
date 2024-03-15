@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Training_C_.Factory
 {
-    public interface IFactory
+    public interface IReport
     {
         void InsertTotalPrice();
         void InsertHealthInsuranceName();

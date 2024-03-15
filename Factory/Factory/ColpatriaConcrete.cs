@@ -9,7 +9,7 @@ namespace Factory.Factory
 {
     public class ColpatriaConcrete : ReportManager
     {
-        public override IFactory MakeReport()
+        public override IReport MakeReport()
         {
             return new ColpatriaReport();
         }

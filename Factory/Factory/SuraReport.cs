@@ -1,6 +1,6 @@
 ﻿namespace Training_C_.Factory
 {
-    public class SuraReport : IFactory
+    public class SuraReport : IReport
     {
         public void InsertHealthInsuranceName()
         {
