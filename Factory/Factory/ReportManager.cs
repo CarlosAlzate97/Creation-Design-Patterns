@@ -10,7 +10,7 @@ namespace Training_C_.Factory
     {
         public abstract IReport MakeReport();
 
-        public void reportManager()
+        public void Manager()
         {
             IReport report = this.MakeReport();
             report.InsertPatientId();

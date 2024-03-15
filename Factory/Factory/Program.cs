@@ -25,7 +25,7 @@ namespace Factory.Factory
                 reportManager = new ColpatriaConcrete();
             }
             reportManager.MakeReport();
-            reportManager.reportManager();
+            reportManager.Manager();
         }
     }
 }
