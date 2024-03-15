@@ -11,7 +11,7 @@ namespace Factory.Factory
     {
         public override IFactory MakeReport()
         {
-            return new Sura();
+            return new SuraReport();
         }
     }
 }
